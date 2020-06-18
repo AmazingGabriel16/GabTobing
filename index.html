@@ -1,9 +1,83 @@
-<!DOCTYPE = html>
-<header>
-<title>Building...</title>
-</header>
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link rel="icon" href="images/GT Logo HD 2.gif">
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allan:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 <body>
-<p>Currently being developed. The landing page should arrive soon but others will take a bit longer.</p>
-<p>Enjoy this video for the time being!</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="index.html">
+    <h4 class="logo"><img src="images/GT Logo HD - 2.png" width="50" height="50"></h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#about">GAMING</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main Section -->
+  <section class="videolanding" id="videolanding">
+	  <p class="tagline" id="tagline"></p>
+	  <script>
+		  var num=Math.round(Math.random() * 10);
+		  var outputText;
+		  if(num = 1) {outputText = "BOOYAH!"}
+		  else if(num = 2) {outputText = "Eliminating Deviants!"}
+		  else if(num = 3) {outputText = "Alyn said what?"}
+		  else if(num = 4) {outputText = "COME AT ME BRO!"}
+		  else {outputText = "Gabriel was here!"}
+
+		  document.getElementById("tagline").innerHTML = outputText;
+	  </script>
+	  <div class="video-container">
+		  <div class="color-overlay"></div>
+		  <video autoplay loop muted width="100%" height="100%">
+			  <source src="videos/GANGNAM STYLE.mp4" type="video/mp4">
+		  </video>
+	  </div>
+  </section>
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+	  <img src="images/GT Logo HD - 2.png" width="100" height="100">
+      <h4>Gaming</h4>
+    </div>
+    <div class="thumbnail">
+	  <img src="images/Code_qrCode.png" width="100" height="100">
+      <h5>Coding</h5>
+    </div>
+    <div class="thumbnail">
+	  <img src="images/GT Logo HD - 2.png" width="100" height="100">
+      <h6>Drawing????</h6>
+    </div>
+    <div class="thumbnail">
+	  <img src="images/GT Logo HD - 2.png" width="100" height="100">
+      <h7>Contact</h7>
+    </div>
+  </div>
+  <!-- Copyrights Section -->
+  <div class="copyright">© Gabriel Tobing - <a href="https://www.facebook.com/gabtobing" target="_blank"><img src="images/Facebook_icon.png" alt="Facebook" width="15" height="15"></img></a> <a href="https://twitter.com/GabTobing" target="_blank"><img src="images/Twitter_icon.png" alt="Twitter" width="15" height="15"></img></a> <a href="https://www.youtube.com/channel/UCyklvUhh-fpNFVQMEl5lCFw" target="_blank"><img src="images/YouTube_icon.png" alt="YouTube" width="15" height="15"></img></a> <a href="https://github.com/AmazingGabriel16/" target="_blank"><img src="images/GitHub_icon.png" alt="GitHub" width="15" height="15"></img></a></div>
+</div>
+<!-- Main Container Ends -->
 </body>
+</html>
