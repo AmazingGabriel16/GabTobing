@@ -1,6 +1,6 @@
 // Note: This will be called splashtext.js on GitHub. Local version is splashtextArrayStyle.js.
 
-Array array[] = new String[
+var array = [
     "F=ma",
     "Gabriel was here!",
     "In the shadows.",
