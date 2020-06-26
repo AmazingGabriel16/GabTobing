@@ -1,4 +1,4 @@
-// Note: This will be called splashtext.js on GitHub. Local version is splashtextArrayStyle.js.
+// Note: As of 26/06/2020, local is now named splashtext.js.
 
 var array = [
     "F=ma",
@@ -31,6 +31,10 @@ var array = [
     "A man blind is a man saved.",
     "The robots... are coming...",
     "1999 - Before the martians attacked.",
+	"Completed so many things, and its not even noon! - 26/06/2020",
+	"The cow actually goes over the earth.";
+	"Cyberpunk - Nov 19 (DEALYED AGAIN)";
+	"They say I wish too often",
 ]
 
 var num=Math.round(Math.random() * array.length);
