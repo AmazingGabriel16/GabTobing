@@ -1,8 +1,0 @@
-@charset "UTF-8";
-.live {
-	position: absolute;
-	align-items: center;
-	overflow: hidden;
-	object-fit: cover;
-	transform: translate(-50%, -50%);
-}
