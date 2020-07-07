@@ -141,7 +141,9 @@ ul li:hover a {
 .gallery a:hover {
   outline: 1px solid currentColor;
   background: rgba(0, 31, 31, 0.1);
-}  
+}
+  
+*/
 
 .gallery a span {
   display: block;
@@ -156,7 +158,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Allan";
 }
-*/
+
 .gallery .gaming span {
 	margin-top: 5px;
 	margin-right: 5px;
