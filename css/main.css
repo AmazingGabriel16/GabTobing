@@ -130,7 +130,12 @@ ul li:hover a {
 	float: left;
 	margin-top: 35px;
 }
-.gallery .thumbnail h4 {
+  
+.gallery a span {
+  display: block;
+}
+  
+.gallery .thumbnail a {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -139,7 +144,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Allan";
 }
-.gallery .thumbnail h5 {
+.gallery .gaming span {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -148,7 +153,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Press Start 2P";
 }
-.gallery .thumbnail h6 {
+.gallery .coding span {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -157,7 +162,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Caveat";
 }
-.gallery .thumbnail h7 {
+.gallery .art span {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -166,7 +171,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Allan";
 }
-.gallery .thumbnail p {
+.gallery .contact span {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
