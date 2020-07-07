@@ -148,7 +148,7 @@ ul li:hover a {
 .gallery a span {
   display: block;
 }
-
+/*
 .gallery .thumbnail a {
 	margin-top: 5px;
 	margin-right: 5px;
@@ -158,8 +158,8 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Allan";
 }
-
-.gallery .gaming span {
+*/
+.gallery .gaming {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -168,16 +168,16 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Press Start 2P";
 }
-.gallery .coding span {
+.gallery .coding {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
 	color: #149414;
 	font-size: 25px;
-	font-family: "Caveat";
+	font-family: "Allan"; /*"Caveat"*/
 }
-.gallery .art span {
+.gallery .art {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
@@ -186,7 +186,7 @@ ul li:hover a {
 	font-size: 25px;
 	font-family: "Allan";
 }
-.gallery .contact span {
+.gallery .contact {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
