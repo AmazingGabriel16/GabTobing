@@ -36,6 +36,7 @@ header {
 	z-index: 2;
 }
 header .logo {
+	width: 0%;
 	float: left;
 	margin-top: 15px;
 	margin-left: 25px;
