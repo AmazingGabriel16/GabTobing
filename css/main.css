@@ -35,16 +35,10 @@ header {
 	position: absolute;
 	z-index: 2;
 }
-.logo {
-	color: #000000;
-	font-weight: bold;
-	font-family: "monospace";
-	text-align: undefined;
-	width: 30%;
+header .logo {
 	float: left;
 	margin-top: 15px;
 	margin-left: 25px;
-	letter-spacing: 2px;
 }
 nav {
 	float: right;
@@ -198,7 +192,7 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
+	background-color: #000000;
 	background-image: url(../images/parallax.png);
 	height: 400px;
 	background-attachment: fixed;
@@ -298,7 +292,7 @@ footer .footer_column p {
 	border-top-width: 2px;
 }
 .footer_banner {
-	background-color: #B3B3B3;
+	background-color: #000000;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
@@ -314,7 +308,7 @@ footer {
 
 /* Mobile */
 @media (max-width: 320px) {
-.logo {
+header .logo {
 	width: 100%;
 	text-align: center;
 	margin-top: 13px;
@@ -334,6 +328,7 @@ footer {
 header nav ul {
 }
 nav ul li {
+	color: #FFFFFF;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -350,7 +345,10 @@ nav ul li {
 	padding-left: 0px;
 }
 .thumbnail {
-	width: 100%;
+	width: 50%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
 }
 .footer_column {
 	width: 100%;
@@ -383,7 +381,7 @@ nav ul li {
 	text-align: center;
 }
 .banner {
-	background-color: #2D9AB7;
+	background-color: #FFFFFF;
 	background-image: none;
 }
 .tagline {
@@ -400,14 +398,13 @@ nav ul li {
 
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
-.logo {
+header .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	color: #043745;
 }
 .container header nav {
 	margin-top: 0px;
@@ -418,7 +415,7 @@ nav ul li {
 	float: none;
 	overflow: auto;
 	display: inline-block;
-	background: #52bad5;
+	background: #000000;
 }
 header nav ul {
 	padding: 0px;
@@ -443,7 +440,10 @@ nav ul li {
 	padding-left: 0px;
 }
 .thumbnail {
-	width: 100%;
+	width: 15%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
 }
 .footer_column {
 	width: 100%;
@@ -476,7 +476,10 @@ nav ul li {
 	text-align: center;
 }
 .thumbnail {
-	width: 50%;
+	width: 30%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
 }
 .parallax {
 	margin-top: 0px;
@@ -511,7 +514,10 @@ nav ul li {
 	width: 100%;
 }
 .thumbnail {
-	width: 50%;
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
 }
 .text_column {
 	width: 100%;
