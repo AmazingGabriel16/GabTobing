@@ -1,5 +1,15 @@
 // Note: As of 26/06/2020, local is now named splashtext.js.
 
+/*
+
+A note to anybody reading this, this website is still under development and will take a while.
+I will try my best to update it and actually finish the website, but for now it is incomplete by a lot and I'm taking it step by step.
+
+Thank you for your patience.
+
+*/
+
+
 var array = [
 	"Tyln"
 	"Tibby"
@@ -164,16 +174,16 @@ var array = [
     "FOP S10 was bad, 100% no doubt.",
     "UNDO!!! UNDO!!!",
     "You have mail!",
+    "#LearnToCode",
+    "When you call yourself a journalist but all you post are gifs",
+    "Marcy is actually pretty cool!",
+    "Why does Anne still not have a shoe after and has sticks and leaves in her hair still?",
+    "Sprig is a frog",
+    "Corpo",
+    "Nomad",
+    "Street Kid",
+    "Introducing the new eyePhone",
 	/*
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
     "",
     "",
     "",
