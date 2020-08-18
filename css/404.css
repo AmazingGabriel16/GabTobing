@@ -1,5 +1,12 @@
 @charset "UTF-8";
-404_Image {
+#404_Image {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+#IMG_404_Image {
 	width: 100%;
 	height: 100vh;
 	position: relative;
