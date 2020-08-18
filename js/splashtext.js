@@ -11,8 +11,8 @@ Thank you for your patience.
 
 
 var array = [
-	"Tyln"
-	"Tibby"
+	"Tyln",
+	"Tibby",
 	"EVA is messed up, cool and sad at the same time",
     "F=ma",
     "Gabriel was here!",
