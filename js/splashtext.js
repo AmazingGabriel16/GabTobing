@@ -183,21 +183,22 @@ var array = [
     "Nomad",
     "Street Kid",
     "Introducing the new eyePhone",
-	/*
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "Hi_Five",
+	"You didn't think my parents actually named me Five did you?"
+    "Porky",
+    "Miks",
+    "404 - Try Again",
+    "Glitch Tech's show distorts the blue and red further away from the centre",
+    "We're all weirdos, now get back to work",
+    "Evert once in a while someone like you appears. The unsung hero, the nameless samarithan. Gian.",
+    "Hector Nieves - Service Technician",
+    "Stefan Etienne - Still being roasted 2 years later for that PC he built",
+    "The Verge PC guy",
+    "Ponji Ninja",
+    "CynolsIsAway",
+    "MOUNTAIN DEW TIME!!!",
+    /*
+	"",
     "",
     "",
     "",
@@ -806,7 +807,6 @@ var array = [
     "",
     "",
 	*/
-    
 ]
 
 var num=Math.round(Math.random() * array.length);
