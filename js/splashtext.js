@@ -198,10 +198,10 @@ var array = [
     "CynolsIsAway",
     "MOUNTAIN DEW TIME!!!",
 	"Commander and Jetsream!",
-    "Oh its magic, to watch a planet, shrivel up and die"
-	/*
-    "",
-    "",
+    "Oh its magic, to watch a planet, shrivel up and die",
+    "BRING I.T. ON",
+    /*
+	"",
     "",
     "",
     "",
