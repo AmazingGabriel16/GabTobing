@@ -13,4 +13,4 @@ Thank you for your patience.
 
 ---
 
-<a href="https://gabotbing.com">gabtobing.com</a>
+<a href="https://gabtobing.com">gabtobing.com</a>
