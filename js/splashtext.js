@@ -88,7 +88,7 @@ var array = [
     "TROLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOL!!!!!!",
     "Hiro the Hero!",
     "Baymax!",
-    "Locekd and loaded!",
+    "Locked and loaded!",
     "Fusion Reaction!",
     "Busses with buoyancy bags",
     "Trains with buoyancy bags",
