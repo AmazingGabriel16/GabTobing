@@ -805,5 +805,5 @@ var array = [
 	*/
 ]
 
-var num=Math.round(Math.random() * array.length);
+var num=Math.floor(Math.random() * array.length);
 document.getElementById("tagline").innerHTML = array[num];
