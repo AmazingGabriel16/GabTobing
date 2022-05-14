@@ -1,30 +1,21 @@
-// Note: As of 26/06/2020, local is now named splashtext.js.
-
-/*
-
-A note to anybody reading this, this website is still under development and will take a while.
-I will try my best to update it and actually finish the website, but for now it is incomplete by a lot and I'm taking it step by step.
-
-Thank you for your patience.
-
-*/
+// The most uWu-est splashtext of all splash texts! uWu
 
 
 var array = [
 	"Senpai!",
     "Bakaaaaaaaaaaaaaaaaaa",
-    "uWu"/*
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
+    "uWu",
+    "Sugawara...",
+    "Omae Wa Mou",
+    "catgirls",
+    "wolfgirls",
+    "foxgirls",
+    "86",
+    "Another truck incoming!",
+    "Join us at the Konohana hotspring inn <3",
+    "Truck portals",
+    "Useless tech",
+    "MAGIC"/*
     "",
     "",
     "",

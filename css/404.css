@@ -1,15 +1,8 @@
-@charset "UTF-8";
-#404_Image {
-	width: 100%;
-	height: auto;
-	position: relative;
-	align-items: center;
-	justify-content: center;
+body {
+	background-color: #2c2c2c;
 }
-#IMG_404_Image {
-	width: 100%;
-	height: auto;
-	position: relative;
-	align-items: center;
-	justify-content: center;
+
+#main-text {
+	color: white;
+	font-size: 100px;
 }
