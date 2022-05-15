@@ -4,8 +4,6 @@ Welcome to the GitHub repository of my website.
 
 All of the pages should be in the main directory and not in a file, the resources(assets) for those pages and all pages would be located inside clearly labelled folders, such as the images and js folder.
 
----
-
 # Use of code
 
 I'm not the best nor am I good, but hey, if you find my code interesting and want to use it, go ahead.
@@ -13,8 +11,6 @@ I'm not the best nor am I good, but hey, if you find my code interesting and wan
 I'd suggest looking into the splashtext Java Script files btw, that's a fun one.
 
 If you have any questions, feel free to create a issue item :>
-
----
 
 # Development
 
