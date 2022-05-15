@@ -2,6 +2,8 @@
 
 Welcome to the GitHub repository of my website.
 
+Being a student without a job, I can't really afford hosting stuff that they usually have, so I've kinda just hosted it on GitHub. There isn't much story to it besides me just wanting a website.
+
 All of the pages should be in the main directory and not in a file, the resources(assets) for those pages and all pages would be located inside clearly labelled folders, such as the images and js folder.
 
 # Use of code
