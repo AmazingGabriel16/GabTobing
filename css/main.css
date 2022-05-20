@@ -16,9 +16,8 @@ a:not([class*="btn"]):hover {
 
 .main-con {
     position: absolute;
-    overflow: hidden;
-    top: 20%;
-    left: 25%;
+    align-items: center;
+    top: 17%;
 }
 
 body {
@@ -35,6 +34,7 @@ body {
 }
 
 .back-to-home {
+    position: sticky;
     border-radius: 15%;
     top: 20px;
     left: 20px;
