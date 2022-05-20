@@ -16,6 +16,7 @@ a:not([class*="btn"]):hover {
 
 .main-con {
     position: absolute;
+    overflow: hidden;
     top: 20%;
     left: 25%;
 }
