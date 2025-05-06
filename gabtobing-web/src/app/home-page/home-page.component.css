@@ -50,11 +50,9 @@ a:not([class*="btn"]):hover {
 }
 
 .footer {
-    position: absolute;
-    bottom: -110%;
+    bottom: 0;
     height: 50px;
-
-    background: #5A5A5A;
+    background: #5A5A5A
 }
 
 .stream-con {
@@ -70,7 +68,8 @@ a:not([class*="btn"]):hover {
 }
 
 #stream-schedule-title {
-    background: #ffffff;
+    color: white;
+    background:  #198754;
     padding-left: 10rem;
     padding-right: 10rem;
     padding-top: 2rem;
