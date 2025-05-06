@@ -1,42 +1,85 @@
-<!-- Main content -->
+<!-- Body -->
 <div class="main-con container-fluid">
-    <div class="d-sm-flex justify-content-center">
-      <!-- Fox image -->
-      <div id="uWu-image-con">
-        <img id="uWu-image" class="img-fluid" src="https://gabtobing.com/images/HoloSleep%20-%20Zoomed.png" alt="Holo Sleeping">
+  <!-- Landing -->
+  <div class="landing-con d-sm-flex justify-content-center">
+    <!-- Fox image -->
+    <div id="uWu-image-con">
+      <img id="uWu-image" class="img-fluid" src="https://gabtobing.com/images/HoloSleep%20-%20Zoomed.png" alt="Holo Sleeping">
+    </div>
+    <!-- Side buttons -->
+    <div id="button-group" class="col-3">
+      <div class="col-11">
+        <a routerLink='about-me' routerLinkActive="active" ariaCurrentWhenActive="page">
+          <div class="row p-2">
+            <div type="button" class="main-button rounded btn btn-lg btn-success p-2">about me</div>
+          </div>
+        </a>
+        <a href="404.html">
+          <div class="row p-2">
+            <div type="button" class="main-button rounded btn btn-lg btn-success p-2">smolgabs</div>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=aueEu9Gano4">
+          <div class="row p-2">
+            <div type="button" class="main-button rounded btn btn-lg btn-success p-2">some uWu</div>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=fNJk9owbieE">
+          <div class="row p-2">
+            <div type="button" class="main-button rounded btn btn-lg btn-success p-2">something random</div>
+          </div>
+        </a>
       </div>
-  
-      <!-- Side buttons -->
-      <div id="button-group" class="col-3">
-        <div class="col-11">
-          <a routerLink='about-me' routerLinkActive="active" ariaCurrentWhenActive="page">
-            <div class="row p-2">
-              <div type="button" class="main-button rounded btn btn-lg btn-success p-2">about me</div>
-            </div>
-          </a>
-          <a href="404.html">
-            <div class="row p-2">
-              <div type="button" class="main-button rounded btn btn-lg btn-success p-2">smolgabs</div>
-            </div>
-          </a>
-          <a href="https://www.youtube.com/watch?v=aueEu9Gano4">
-            <div class="row p-2">
-              <div type="button" class="main-button rounded btn btn-lg btn-success p-2">some uWu</div>
-            </div>
-          </a>
-          <a href="https://www.youtube.com/watch?v=fNJk9owbieE">
-            <div class="row p-2">
-              <div type="button" class="main-button rounded btn btn-lg btn-success p-2">something random</div>
-            </div>
-          </a>
+    </div>
+  </div>
+  <!-- Stream schedule containers -->
+  <div class="section-title container-fluid d-sm-flex justify-content-center">
+    <h1 id="stream-schedule-title" class="border rounded">Stream schedule</h1>
+  </div>
+  <div class="stream-con container-fluid d-sm-flex justify-content-center">
+    <div class="row">
+      <!-- Actual card slots -->
+      <!-- Hard coded will be replaced with variables later -->
+      <div class="col">
+        <!-- Cards -->
+        <div class="card" style="width: 20rem">
+          <h5 class="card-title text-center pt-3 pb-2"> Today </h5>
+          <img src="https://gabtobing.com/images/HoloSleep%20-%20Zoomed.png" class="card-img-top">
+          <p class="card-text">Let's play games!</p>
+          <a href="#" class=" btn btn-primary">View stream!</a>
+        </div>
+      </div>
+      <div class="col">
+        <!-- Cards -->
+        <div class="card p-3" style="width: 20rem">
+          <h5 class="card-title text-center"> Tomorrow </h5>
+          <p class="card-text">Let's play games!</p>
+          <a href="#" class=" btn btn-primary">View stream!</a>
+        </div>
+      </div>
+      <div class="col">
+        <!-- Cards -->
+        <div class="card p-3" style="width: 20rem">
+          <h5 class="card-title text-center"> Soon </h5>
+          <p class="card-text">Let's play games!</p>
+          <a href="#" class=" btn btn-primary">View stream!</a>
+        </div>
+      </div>
+      <div class="col">
+        <!-- Cards -->
+        <div class="card p-3" style="width: 20rem">
+          <h5 class="card-title text-center"> Later </h5>
+          <p class="card-text">Let's play games!</p>
+          <a href="#" class=" btn btn-primary">View stream!</a>
         </div>
       </div>
     </div>
   </div>
+</div>
 
 <!-- Page footer -->
 <div class="footer container-fluid">
-    <div class="text-center row">
-        <span id="tagline" class="footer-msg pt-1"><script src="js/uwu-splash.js" type="df9a4d4079e1b915b8e2136d-text/javascript"></script></span>
-    </div>
+  <div class="container text-center row">
+      <span id="tagline" class="footer-msg pt-1"><script src="js/uwu-splash.js" type="df9a4d4079e1b915b8e2136d-text/javascript"></script></span>
+  </div>
 </div>

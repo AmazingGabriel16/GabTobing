@@ -51,8 +51,29 @@ a:not([class*="btn"]):hover {
 
 .footer {
     position: absolute;
-    bottom: 0px;
+    bottom: -110%;
     height: 50px;
 
     background: #5A5A5A;
+}
+
+.stream-con {
+    padding-bottom: 250px
+}
+
+.landing-con {
+    padding-bottom:225px
+}
+
+.section-title {
+    padding-bottom: 50px;
+}
+
+#stream-schedule-title {
+    background: #ffffff;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 40px;
 }
