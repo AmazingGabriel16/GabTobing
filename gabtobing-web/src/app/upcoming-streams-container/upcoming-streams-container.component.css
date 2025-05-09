@@ -1,0 +1,17 @@
+.section-title {
+    padding-bottom: 50px;
+}
+
+#stream-schedule-title {
+    color: white;
+    background:  #198754;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 40px;
+}
+
+.stream-con {
+    padding-bottom: 250px
+}
