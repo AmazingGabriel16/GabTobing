@@ -55,10 +55,6 @@ a:not([class*="btn"]):hover {
     background: #5A5A5A
 }
 
-.stream-con {
-    padding-bottom: 250px
-}
-
 .landing-con {
     padding-bottom:225px
 }
@@ -75,4 +71,8 @@ a:not([class*="btn"]):hover {
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 40px;
+}
+
+.stream-con {
+    padding-bottom: 250px
 }
