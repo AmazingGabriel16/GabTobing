@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "assets/scripts/stream-schedule.ts"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -93,6 +95,17 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "e2e": {
+          "builder": "playwright-ng-schematics:playwright",
+          "options": {
+            "devServerTarget": "gabtobing-web:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "gabtobing-web:serve:production"
+            }
           }
         }
       }
